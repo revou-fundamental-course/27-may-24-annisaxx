@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Annisa</title>
+    <title>Hogwarts School of Witchcraft and Wizardry</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav>
+    <!-- Top navigation -->
+    <div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered logo-icon">
+    </div>
+  
+    <!-- Left-aligned links (default) -->
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <a href="#search">Search</a>
+      <a href="#about">About</a>
+    </div>
+  
+    </div>
+    </nav>
+
+    <hr>
+
+    <section class="section-container">
+
+        <!--Home-->
+        <section id="home">
+            <header>
+                <h1>Hai Annisa, welcome to Hogwarts</h1>
+            </header>
+
+            <article>
+                <p>Have you received our owl?</p>
+
+                <div class="banner-container">
+                    <div class="banner-img" style="background-image: url(assets/1.jpg);"></div>
+                    <div class="banner-img" style="background-image: url(assets/2.jpg);"></div>
+                    <div class="banner-img" style="background-image: url(assets/3.jpg);"></div>
+
+
+                </div>
+            </article>
+        </section>
     
+        <hr>
+
+        <!--Our Facilities-->
+        <section id="facilities">
+            <header>
+                <h1>Our Facilities</h1>
+            </header>
+
+            <Article class="facility-list">
+                <div>
+                    <div style="height: 50px; width: 50px; border: 1px solid black; border-radius: 50%"></div>
+                    <h5>Free Dormitory</h5>
+                </div>
+
+                <div>
+                    <div style="height: 50px; width: 50px; border: 1px solid black; border-radius: 50%"></div>
+                    <h5>Free Dormitory</h5>
+                </div>
+
+                <div>
+                    <div style="height: 50px; width: 50px; border: 1px solid black; border-radius: 50%;"></div>
+                    <h5>Free Dormitory</h5>
+                </div>
+            </Article>
+        </section>
+        
+        <hr>
+
+        <!--Message Us-->
+        <section id="message-us">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+
+            <section class="message-us-section">
+                <!--Ini Form-->
+                <section>
+                    <form>
+                        <label>Name:</label>
+                        <input id="name-input" />
+                        <button type="button" onclick="nextSlide(1)">Send Form</button>
+                    </form>
+                </section>
+                
+                <!--Result-->
+                <section class="result-container">
+                    <div class="form-result">
+
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
