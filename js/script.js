@@ -34,4 +34,4 @@ function showBanner(indexBanner) {
    console.log('Index' + (indexSlide - 1) + 'adalah index image yang ditampilkan');
 }
 
-setInterval(() => nextSlide(1), 3000);
+setInterval(() => nextSlide(1), 5000);
